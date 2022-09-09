@@ -27,13 +27,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.link:hover {
+  text-decoration: none;
+}
+
 .right {
   color: #fff;
 }
 
 /* MAIN PAGE */
 
-#mainPage {
+#home {
   background-color: #2f5268;
   color: #fff;
   padding: 2% 10% 6%;
@@ -196,7 +200,7 @@ body {
 
 /* CONTACT SECTION */
 
-#contact-section {
+#contact {
   background-color: #f3f1f0;
   color: #2f5268;
   padding: 2% 10% 5%;
@@ -217,8 +221,85 @@ body {
 #footer {
   background-color: #343a40;
   color: #fff;
-  padding: 2% 10% 2%;
+  padding: 3% 10% 2%;
   /* background-image: url(/photos/tropical-green-leaves-.png); */
   background-size: cover;
+}
+
+.title-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 1% 1%;
+  /* margin-left: 50%;
+  transform: translate(-50%); */
+  margin-top: 3%;
+  /* font-weight: bold; */
+  margin-left: 5%;
+}
+
+.title-footer:hover {
+  color: #c9a395;
+}
+
+.logo-footer {
+  /* margin-top: 7%; */
+  margin-left: 55%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+#logo-footer:hover {
+  cursor: pointer;
+}
+
+.last-footer {
+  padding: 3% 1%;
+  font-weight: bold;
+}
+
+.address {
+  font-weight: lighter;
+  line-height: 28px;
+  padding-top: -1%;
+}
+
+.copylinks,
+.calllinks {
   text-align: center;
+  margin-top: 1%;
+}
+
+.linked-in {
+  color: #fff;
+}
+
+.linked-in,
+.call {
+  color: #fff;
+}
+
+.call:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.linked-in:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+#copy,
+#call {
+  background-color: #c9a395;
+  font-family: "Times New Roman", Times, serif;
+  color: #343a40;
+}
+
+#copy:hover {
+  color: #fff;
+}
+
+.whatsapp:hover {
+  color: #343a40;
+  text-decoration: none;
 }
